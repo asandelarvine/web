@@ -1,0 +1,84 @@
+/*startof div.html*/
+html, body{
+    padding:0;
+    margin:0;
+}
+#body{
+    background-color:#00ccff;
+    font-size:14px
+}
+#topbar{
+    height:70px;
+    background-color: navy;
+}
+#topbar #left{
+    width:30%;
+    float:left;
+    height:100%;
+    font-size:50px;
+    color: aquamarine;
+    padding-left: 60px;
+   
+}
+#topbar #right{
+    width:30%;
+    float:right;
+    height:100%;
+    font-size:60px;
+   
+}
+#topbar #right a{
+    display:inline;
+    font-size:30px;
+    text-decoration:none;
+    background-color:aquamarine;
+
+}
+
+#topbar #right a:hover{
+    padding: 10px;
+    color:red;
+}
+
+#middlebar{
+    height: 800px;
+    background-image: url("range.jpg");
+    background-size: cover;
+    font-size: 3vw;;
+    color:black; 
+    font-style: oblique; 
+}
+#text{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+#middlebar a{
+    text-decoration: none;
+    padding: 60px;
+}
+#bottombar{
+        height:800px;
+        background-color: navy;
+}
+#bottombar #leftside{
+    width:40%;
+    float:left;
+    height:100%;
+    font-size:40px;
+    color: antiquewhite;
+}
+#bottombar #leftside ul{
+    text-align: center;
+    list-style-type:none;
+}
+#bottombar #rightside{
+    width:40%;
+    float:right;
+    height:100%;
+    font-size:30px;
+    color: antiquewhite;
+}
+#bottombar #rightside i{
+    color: black;
+}
+
